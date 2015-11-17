@@ -82,10 +82,11 @@ document.addEventListener('touchmove' , function (ev){
 		    event.preventDefault();
 		});
 
-		// touch.on(l, 'swipedown', function(event){
-			
-		//     event.preventDefault();
-		// });
+		touch.on("#qrcode", 'swipedown', function(event){
+			pageAnimate_out("qrcode");
+			pageAnimate_in("video");
+		    event.preventDefault();
+		});
 
 
 		
