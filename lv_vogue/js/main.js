@@ -14,25 +14,25 @@ document.addEventListener('touchmove' , function (ev){
     $(function(){
 
         var basePath= '../';    //'http://wximg.qq.com/wxp/moment/4ySCn1mfl/';
-		var wa = new WxMoment.Analytics({
-		    //projectName 请与微信商务团队确认
-		    projectName: "20151207LV"
-		}); 
-		new WxMoment.Share({
-		    //分享到朋友圈
-		    'moment': {
-		        'title': "路易威登旅程永无止境……"
-		    },
-		    //分享给好友
-		    'friend': {
-		        'title': "路易威登旅程永无止境……",
-		        'desc': "14岁的少年远赴巴黎，路易威登旅程就此开启。"
-		    },
-		    'global': {
-		        'img_url': basePath + "/imgs/share.jpg",
-		        'link': window.location.href.split("?")[0].replace(/([&|\?]{1})ticket=[\w\-]+(&?)/, '$1').replace(/\?$/, '')
-		    }
-		});
+		// var wa = new WxMoment.Analytics({
+		//     //projectName 请与微信商务团队确认
+		//     projectName: "20151207LV"
+		// }); 
+		// new WxMoment.Share({
+		//     //分享到朋友圈
+		//     'moment': {
+		//         'title': "路易威登旅程永无止境……"
+		//     },
+		//     //分享给好友
+		//     'friend': {
+		//         'title': "路易威登旅程永无止境……",
+		//         'desc': "14岁的少年远赴巴黎，路易威登旅程就此开启。"
+		//     },
+		//     'global': {
+		//         'img_url': basePath + "/imgs/share.jpg",
+		//         'link': window.location.href.split("?")[0].replace(/([&|\?]{1})ticket=[\w\-]+(&?)/, '$1').replace(/\?$/, '')
+		//     }
+		// });
 
 
         var vidArr = ["m00188tkwcb"];
@@ -76,16 +76,16 @@ document.addEventListener('touchmove' , function (ev){
 		/* 戒指动画 */
 
 		touch.on(".swipeArea", 'swipeup', function(event){
-			videoFun(0);
 			pageAnimate_out("video");
 			pageAnimate_in("qrcode");
 		    event.preventDefault();
 		});
 
-		// touch.on(l, 'swipedown', function(event){
-			
-		//     event.preventDefault();
-		// });
+		touch.on("#qrcode", 'swipedown', function(event){
+			pageAnimate_out("qrcode");
+			pageAnimate_in("video");
+		    event.preventDefault();
+		});
 
 
 		
