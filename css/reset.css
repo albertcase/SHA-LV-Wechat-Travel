@@ -87,9 +87,13 @@ html, body{
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     -webkit-tap-highlight: rgba(0,0,0,0);
     -webkit-text-size-adjust: none;
-    overflow: -moz-scrollbars-vertical
+
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
 
 
 @-webkit-keyframes rotation {
