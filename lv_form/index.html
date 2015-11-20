@@ -108,16 +108,16 @@
 		var _city = $("input[name='city']").val();
 
 		if(_name == "" || !_name){
-			alert("姓名不能为空！");
+			alert("请填写姓名");
 			return false;
 		}else if(!isPhoneNum(_tel)){
-			alert("手机号码错误!");
+			alert("请填写正确的手机号码");
 			return false;
 		}else if(_sex == "请选择"){
-			alert("请选择您的性别!");
+			alert("请选择性别!");
 			return false;
 		}else if(_city == ""){
-			alert("城市不能为空!");
+			alert("请填写城市");
 			return false;
 		}else{
 			$(".successPup").show();
