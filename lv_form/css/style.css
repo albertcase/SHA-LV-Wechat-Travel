@@ -181,7 +181,7 @@ html,body{
   left: 0;
   top: 0;
   z-index: 16;
-  background: rgba(235,235,235,0.95);
+  background: rgba(235,235,235,1);
   display: none;
 }
 
