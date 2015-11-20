@@ -20,7 +20,7 @@
   width: 62%;
   position: absolute;
   left: 50%;
-  top: 8%;
+  top: 10%;
   margin: 0 0 0 -31%; 
   z-index: 12;
   text-align: center;
@@ -96,7 +96,7 @@
 .video{
   width: 100%;
   display: inline-block;
-  margin: 42% 0 0 0;
+  margin: 43% 0 0 0;
   position: relative;
   z-index: 3;
 }
