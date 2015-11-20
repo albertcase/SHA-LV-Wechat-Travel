@@ -185,28 +185,6 @@ html,body{
   display: none;
 }
 
-
-/*.successPup_con{
-  width:60%;
-  height: 100px;
-  line-height: 100px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin: -50px 0 0 -30%;
-  background: #e5e0da url("../imgs/r_icon.png") no-repeat 27% center;
-  color: #533f35;
-  background-size: 10% auto;
-  font-size: 18px;
-}
-
-.successPup_con span{
-  display: inline-block;
-  margin: 0 0 0 42%;
-  float: left;
-}
-*/
-
 .successPup_con{
   width:60%;
   height: 100px;
