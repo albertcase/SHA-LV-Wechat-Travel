@@ -247,7 +247,7 @@
   }
 
   .video{
-    margin: 27% 0 0 0;
+    margin: 31% 0 0 0;
   }
 
   .slogan{
@@ -275,9 +275,11 @@
     background-size: 100% auto;
   }
 
+
   .qrcode_con{
     margin: 50% 0 0 0;
   }
+
 
 
 }
@@ -550,8 +552,6 @@
     display: inline-block;
   }
 }
-
-
 
 
 
