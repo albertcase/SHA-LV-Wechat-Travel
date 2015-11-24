@@ -557,6 +557,19 @@
 
 
 
+/* 4s */
+
+@media handheld and (min-height:400px),screen and (max-height:420px) {
+
+  .qrcode_con{
+    margin: 50% 0 0 0;
+  }
+
+}
+
+
+
+
 
 
 
