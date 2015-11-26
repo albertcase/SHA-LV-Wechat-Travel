@@ -138,11 +138,11 @@
 }
 
 .changeTips{
-  width: 50%;
+  width: 53%;
   position: absolute;
   left: 50%;
   bottom: -36%;
-  margin: 0 0 0 -25%;
+  margin: 0 0 0 -26%;
   z-index: 6;
 }
 
